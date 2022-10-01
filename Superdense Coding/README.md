@@ -7,7 +7,7 @@ Superdense coding is a procedure that allows someone to send two classical bits 
 Quantum teleportation and superdense coding are closely related, to avoid confusion we need to clarify the difference.
 
 
-##### Difference between Quantum Teleportation and Superdense Coding
+#### Difference between Quantum Teleportation and Superdense Coding
 
 ------------
 
