@@ -7,7 +7,7 @@ Superdense coding is a procedure that allows someone to send two classical bits 
 Quantum teleportation and superdense coding are closely related, to avoid confusion we need to clarify the difference.
 
 
-#####Difference between Quantum Teleportation and Superdense Coding
+##### Difference between Quantum Teleportation and Superdense Coding
 
 ------------
 
@@ -31,7 +31,7 @@ Initially we take two qubits, q0 and q1. These qubits are in their basis state |
 
 
 
->|00⟩=|0⟩<sub>q0</sub>⊗|0⟩<sub>q1</sub>
+> |00⟩=|0⟩<sub>q0</sub>⊗|0⟩<sub>q1</sub>
 
 ------------
 
@@ -42,7 +42,7 @@ We create a bell-pair out of them by applying a Hadamard Gate (**H**) to q1
 
 
 
->|+0⟩=(|00⟩+|10⟩)/√2
+> |+0⟩=(|00⟩+|10⟩)/√2
 
 ------------
 
@@ -52,7 +52,7 @@ and CNOT Gate (**CX**) with q1 as control and q0 as target bit, this creates an 
 
 
 
->(|00⟩+|11⟩)/√2
+> (|00⟩+|11⟩)/√2
 
 ------------
 
@@ -77,7 +77,7 @@ If information is 10,** Z** gate is applied during sending.
 If information is 11, both **Z** and **X** gates are applied during sending.
 
 
-####### Receiving the bits
+###### Receiving the bits
 
 After the encoding of the information qubits the receiver simply decodes the message by applying the reverse of the entanglement operations, there is no need to knowing the encoding protocols for the receiving end.
 
