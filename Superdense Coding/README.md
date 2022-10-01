@@ -13,9 +13,11 @@ Quantum teleportation and superdense coding are closely related, to avoid confus
 
 
 ###### Teleportation 
+
 *Transmit one qubit using two classical bits*
 
 ###### Superdense coding
+
 Transmit two classical bits using one qubit
 
 ### How does Superdense Coding work ?
@@ -24,7 +26,7 @@ Transmit two classical bits using one qubit
 
 
 
-#######Sending the bits
+###### Sending the bits
 
 Initially we take two qubits, q0 and q1. These qubits are in their basis state |0⟩.
 
