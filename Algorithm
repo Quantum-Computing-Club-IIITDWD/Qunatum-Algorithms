@@ -1,0 +1,148 @@
+# Phase kick back algorithm
+
+# for understanding phase kick back one should have the prior knowledge of not gate and cnot gate
+
+# as we all know what is the not gate it just flips the state of the given qubit
+#if the given qubit is |0> then output will be |1> and vice-versa
+
+
+#now we should understand what is cnot gate
+
+""" CNOT Gate"""
+#it is similar to xor gate in classical computing
+#it is shown by the symbol 
+#it is known as controlled not gate as it is controlled for doing some operations
+
+
+#it is a two qubit gate
+1.control qubit 
+2.target qubit
+#when it comes to the operation of cnot gate
+#we can define it in many ways one way of doing it is "the output is based on the control qubit based on the control qubit value we tend to change the value of target qubit "
+
+
+# so this table defines the cnot gate operation :
+"""
+    CNOT           output
+    
+    |01>            |01>                #the first qubit is control qubit and the second qubit in the ket is target qubit
+    
+
+    |00>            |00>
+    
+    
+    |10>            |11>
+    
+    
+    |11>            |10>
+
+
+"""
+
+
+"""    matrix representation of cnot 
+        
+        
+        CNOT =  [ 1  0  0  0
+                
+                  0  1  0  0
+         
+                  0  0  0  1
+                  
+                  0  0  1  0  ]
+
+"""
+
+
+CNOT|10> == [ 1  0  0  0      [ 0                  [ 0
+              0  1  0  0        0          ==        0     == |11>
+              0  0  0  1        1                    0
+              0  0  1  0 ]      0 ]                  1 ]
+              
+             
+#the above is one mathematical example of cnot opertaion 
+similar for CNOT|00>
+            CNOT|01>
+            CNOT|11>
+
+                                                                 
+                                                                 
+                                                                 
+                                                                 
+                                                                 """"""" PHASE KICK BACK """"""""
+                                                                  
+                                                                  
+# it is an special property with controlled gates
+similar like cnot gate there will be ocntrol qubit aand target qubit
+when it comes to pahse kick back the name itself depicts that changing the phase or state of the qubit
+
+#it is similar to CNOT gate but here the state of the control qubit will be changed base don target qubit whereas 
+in CNOT gate the target qubit will be chanegd based on control qubit
+
+For example :
+              CNOT|+-> = |-->
+          
+visualising the above example 
+
+|+-> = (1/sqrt(2) |0> + 1/sqrt(2) |1> ) x (1/sqrt(2) |0> - 1/sqrt(2)|1> )
+     
+     = 1/2 |00> -1/2 |01> +1/2 |10> -1/2 |11>
+     
+     
+ CNOT |+->  = 1/2(CNOT|00>) - 1/2(CNOT|01>)  + 1/2(CNOT|10>) - 1/2(CNOT|11>)    
+ 
+            = 1/2|00> - 1/2|01> + 1/2|11> - 1/2|10>
+            
+            = (1/sqrt(2) |0> - 1/sqrt(2) |1>)  x  (1/sqrt(2) |0> - 1/sqrt(2) |1>)
+            
+            = |-->
+            
+       
+                       """ PHASE KICK BACK OPERATIONS RESULTS """"
+            
+            
+  
+  
+  CNOT |++> ==  |++>
+  
+  CNOT |+-> ==  |-->
+  
+  CNOT |-+> ==  |-+>
+  
+  CNOT |--> ==  |+->
+  
+  
+  we know the values of CNOT|01> or |10> or |11> or |00>
+  but we can convert 0 and 1 to + and  - by appllying hadamard gate
+  
+  0 --> [H] === +
+  1 --> [H] === -
+  
+  
+  
+  This is all about Phase kick back
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
