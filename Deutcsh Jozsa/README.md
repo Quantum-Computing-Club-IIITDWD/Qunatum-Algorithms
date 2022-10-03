@@ -1,5 +1,5 @@
 # Qunatum-Algorithms
-######** Deutsch-Jozsa Algorithm**
+###### ** Deutsch-Jozsa Algorithm**
 
 ------------
 
