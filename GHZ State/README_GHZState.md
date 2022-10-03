@@ -17,7 +17,6 @@ we should know about three things :
 - Hadamard Gate
 - Entanglement
 
-
 ##### _CNOT Gate_ 
 - This is a two qubit operation gate. It uses the first qubit as a control qubit and
 the second qubit is taken as a target qubit.
