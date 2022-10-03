@@ -4,10 +4,15 @@
 ------------
 
 **Table of Contents**
+-Result of the Motivation
+-Problem
+-Problem Solution
+-Classical Solution
+-Quantum Solution
 
-[TOCM]
 
-[TOC]
+
+
 
 
 This algorithm was one of the first example of a quantum algorithm that performs way faster and efficient than the best classical algorithm. It showed that there can be advantages to using a quantum computer as a computational tool.
@@ -41,7 +46,7 @@ N is number of bits, 2^n-1 + 1 evaluations of f will be required in the worst ca
 
 ------------
 
-##### Quanum Solution
+##### Quantum Solution
 
 Solves this in much less time, polynomial time.If f is implemented as a quantum oracle which maps the state |x⟩|y⟩ to |x⟩|y ⊕ f(x), ⊕ is addition modulo 2. 
  
@@ -78,7 +83,7 @@ Hence after simplification it'll be +/- 2^n if f(x) is constant and 0 if f(x) is
 
 [========]
 
-[========]
+
 
 
 
