@@ -4,7 +4,7 @@
 
 - The state (for 3 qubits) can be represented as :
 
-  <a href="url"><img src="https://github.com/dxxdpool/Qunatum-Algorithms-heth_sriram/blob/main/GHZ%20State/ghzstate.png" align="center" width=250></a>
+  <a href="url"><img src="https://github.com/dxxdpool/Qunatum-Algorithms-heth_sriram/blob/main/GHZ%20State/ghzstate.png" align="center" width=300></a>
 --------
 ### _Prerequisites_
 
@@ -22,7 +22,7 @@ To understand the circuit and the furthermore discussion about the GHZ state, fi
 
 - It applies Pauli-X gate on the target qubit leaving the control qubit unchanged when the control qubit is in state |1> but leaves target unchanged when control qubit is in |0> state.
 
-  <a href="url"><img src="https://github.com/dxxdpool/Qunatum-Algorithms-heth_sriram/blob/main/GHZ%20State/cnotgate.png" align="center" width=200></a>
+  <a href="url"><img src="https://github.com/dxxdpool/Qunatum-Algorithms-heth_sriram/blob/main/GHZ%20State/cnotgate.png" align="center" width=180></a>
 
 #### _Hadamard Gate_
 
@@ -30,7 +30,7 @@ To understand the circuit and the furthermore discussion about the GHZ state, fi
 
 - Its matrix representation is :
 
-  <a href="url"><img src="https://github.com/dxxdpool/Qunatum-Algorithms-heth_sriram/blob/main/GHZ%20State/hadagate.png" align="center" width=200></a>
+  <a href="url"><img src="https://github.com/dxxdpool/Qunatum-Algorithms-heth_sriram/blob/main/GHZ%20State/hadagate.png" align="center" width=210></a>
 
 ##### _Entanglement_
 
