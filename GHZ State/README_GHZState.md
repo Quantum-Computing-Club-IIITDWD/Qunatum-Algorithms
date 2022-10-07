@@ -22,7 +22,7 @@ To understand the circuit and the furthermore discussion about the GHZ state, fi
 
 - It applies Pauli-X gate on the target qubit leaving the control qubit unchanged when the control qubit is in state |1> but leaves target unchanged when control qubit is in |0> state.
 
-  <a href="url"><img src="https://github.com/dxxdpool/Qunatum-Algorithms-heth_sriram/blob/main/GHZ%20State/cnotgate.png" align="center" width=210></a>
+  <a href="url"><img src="https://github.com/dxxdpool/Qunatum-Algorithms-heth_sriram/blob/main/GHZ%20State/cnotgate.png" align="center" width=225></a>
 
 #### _Hadamard Gate_
 
