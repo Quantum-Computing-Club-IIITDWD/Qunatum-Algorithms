@@ -4,7 +4,7 @@
 
 - The state (for 3 qubits) can be represented as :
 
-  <a href="url"><img src="http://github.com/assets/images/ghz.png" align="center"></a>
+  <a href="url"><img src="https://github.com/dxxdpool/Qunatum-Algorithms-heth_sriram/blob/main/GHZ%20State/ghzstate.png" align="center"></a>
 --------
 ### _Prerequisites_
 
