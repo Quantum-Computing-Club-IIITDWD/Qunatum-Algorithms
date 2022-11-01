@@ -1,4 +1,3 @@
-
 ### QUANTUM FOURIER TRANSFORM
 
 - Imagine Alice and Bob are friends and Alice wants to share a message only with Bob secretly, also worried that Eve would intercept in between and can know what the message says. So, what is the solution we can suggest to Alice?
@@ -19,4 +18,5 @@
 
 - Generally, say |Z> is the integer representation like 7,3, or 2 and is given by the formula
 
-### FOR FURTHER EXPLANATION HAVE A LOOK AT LINK  PASTED BELOW.
+####  FOR FURTHER EXPLANATION HAVE A LOOK AT THE FOLLOWING IMAGE
+[![](https://github.com/tathya09/Qunatum-Algorithms/blob/main/Quantum%20fourier%20transform/IMG_0001.jpg?raw=true)](http://https://github.com/tathya09/Qunatum-Algorithms/blob/main/Quantum%20fourier%20transform/IMG_0001.jpg)
