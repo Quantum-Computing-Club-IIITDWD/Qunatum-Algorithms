@@ -3,14 +3,12 @@
 - Quantum Phase Estimation is an algorithm used to find the phase of an eigen vector of a unitary operator.
 
 - Generalised circuit for the quantum phase estimation is given as follows :
-
 <a href="url"><img src="https://github.com/dxxdpool/Qunatum-Algorithms-heth-sriram/blob/main/Quantum%20Phase%20Estimation/QPE.png" align="center" width=300></a>
 
 - To understand the quantum phase estimation let us take an example case; but first, let's understand what a T-gate is...
 
 #####T-gate:
 - It is a single qubit operation given by
-
 <a href="url"><img src="https://github.com/dxxdpool/Qunatum-Algorithms-heth-sriram/blob/main/Quantum%20Phase%20Estimation/TGate.png " align="center" width=300></a>
 
 - This gate is related to S gate by the relation S = T²
